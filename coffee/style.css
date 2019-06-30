@@ -1,0 +1,50 @@
+body
+{
+    margin: 0;
+}
+.header
+{
+    height: 100px;
+
+    justify-content: center;
+}
+.hero
+{
+    height: 705px;
+    background: url("images/hero_background.png") repeat-x ;
+
+}
+.navigation
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo
+{
+    flex-shrink:  2;
+}
+.navigate
+{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header_link
+{
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15pt;
+    color: #282b30;
+
+
+}
