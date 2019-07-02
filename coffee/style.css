@@ -10,7 +10,8 @@ body
 }
 .hero
 {
-    height: 705px;
+    padding-top: 110px;
+    height: 595px;
     background: url("images/hero_background.png") repeat-x ;
 
 }
@@ -43,8 +44,71 @@ body
 
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 15pt;
+    font-size: 15px;
     color: #282b30;
+}
 
+.card
+{
+    /*padding-top: 100px;*/
+    height: 479px;
+    width: 943px;
+    background: url("images/card.png") no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
 
+.card_title
+{
+    width: 400px;
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:50px;
+    margin-top: 110px;
+}
+
+.card_text
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 530px;
+}
+.button
+{
+    width: 265px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:26px;
+    background-color: #0fa8ea;
+    border: 0;
+    color: white;
+}
+.button:hover {
+    background-color: #0b7aaa;
+}
+.section
+{
+    height: 100%;
+    padding-top: 130px;
+}
+.section_title
+{
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.gif_section
+{
+    height: 485px;
+    background: url("images/gift_background.png") repeat-x ;
 }
