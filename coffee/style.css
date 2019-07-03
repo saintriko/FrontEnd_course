@@ -10,7 +10,7 @@ body
 }
 .hero
 {
-    padding-top: 110px;
+    padding-top: 135px;
     height: 595px;
     background: url("images/hero_background.png") repeat-x ;
 
@@ -20,7 +20,6 @@ body
     padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    /*height: 100px;*/
     max-width: 820px;
     display: flex;
     justify-content: space-around;
@@ -51,7 +50,7 @@ body
 
 .card
 {
-    padding-top: 110px;
+    padding-top: 106px;
     height: 479px;
     width: 943px;
     background: url("images/card.png") no-repeat;
@@ -63,12 +62,12 @@ body
 
 .card_title
 {
-    width: 400px;
+    width: 410px;
     text-align: center;
     font-size: 46px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     margin-left: auto;
     margin-right: auto;
     line-height:50px;
@@ -79,7 +78,13 @@ body
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 26px;
+    padding-top: 10px;
     width: 530px;
+    font-family: 'Raleway Medium', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
 }
 .button
 {
@@ -91,6 +96,9 @@ body
     background-color: #0fa8ea;
     border: 0;
     color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
 .button:hover {
     background-color: #0b7aaa;
@@ -101,6 +109,7 @@ body
     flex-direction: column;
     height: 100%;
     padding-top: 130px;
+    padding-bottom: 50px;
 }
 .section_title
 {
@@ -117,7 +126,8 @@ body
 .gif_section
 {
     height: 485px;
-    background: url("images/gift_background.png") repeat-x ;
+    background: url("images/gift_background.png") no-repeat;
+
 }
 .subscribe_section
 {
@@ -175,19 +185,120 @@ body
 {
     width: 60%;
 }
+
+
 .section_order
 {
 
     height: 538px;
     background-color: #0fa8ea;
 }
+.taste_container
+{
+    width: 1566px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.taste_image
+{
+    position: relative;
+    width: 52%;
+    height: 100%;
+
+}
+
+.taste_photo
+{
+    width: 100%;
+}
+
+.coffee_image
+{
+    position: absolute;
+    width: 30%;
+}
+.left_coffee_image
+{
+
+    bottom: -83px;
+    right: 60px;
+
+}
+.right_coffee_image
+{
+    bottom: -83px;
+    left: 2px;
+}
+
+
+.taste_discription
+{
+    width: 30%;
+}
+
+
+.testimonial_container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.testimonial_container_reverse
+{
+    flex-direction: row-reverse;
+}
+.testimonial_quote
+{
+    background: url("images/qoute_background.png") no-repeat;
+    filter: drop-shadow(0 0 3px rgba(100,100,100,0.5));
+    width: 701px;
+    height: 236px;
+
+}
+.testimonial_quote_reverse {
+    background: url("images/qoute_background_reverse.png") no-repeat;
+}
+
+
+.testimonial_quote_text
+{
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+}
+.testimonial_author
+{
+    font-weight: bold;
+}
+.testimonial_author_city
+{
+    font-weight: normal;
+}
 .order_form
 {
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    /*display: flex;*/
-    /*flex-direction: column;*/
     height: 100%;
     background: url("images/card_order.png") no-repeat;
+}
+
+.footer
+{
+    height: 310px;
+    background-color: #f8f8f8;
 }
