@@ -2,6 +2,13 @@ body
 {
     margin: 0;
 }
+*
+{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: inherit;*/
+}
+
 .header
 {
     height: 100px;
@@ -21,21 +28,26 @@ body
     margin-left: auto;
     margin-right: auto;
     max-width: 820px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
 }
 .logo
 {
-    flex-shrink:  2;
 }
+.navigate_list
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 900px;
+}
+
 .navigate
 {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /*flex-shrink: 0;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
 
 }
 
@@ -64,13 +76,13 @@ body
 {
     width: 410px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:50px;
     font-size: 46px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    margin-left: auto;
-    margin-right: auto;
-    line-height:50px;
 }
 
 .card_text
@@ -115,13 +127,13 @@ body
 {
     margin-left: auto;
     margin-right: auto;
+
+    padding-bottom: 80px;
+    display: inline-block;
     font-size: 36px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    padding-bottom: 80px;
-    display: inline-block;
-
 }
 .gif_section
 {
@@ -161,7 +173,7 @@ body
     font-weight: 500;
 }
 
-.subscribe_discribtion_container
+.subscribe_description_container
 {
     width: 1300px;
     margin-left: auto;
@@ -170,18 +182,18 @@ body
     flex-direction: row;
     padding-bottom:  100px;
 }
-.subscribe_discribtion_title
+.subscribe_description_title
 {
     font-size: 36px;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
 }
-.subscribe_discription
+.subscribe_description
 {
     width: 40%;
 }
-.subscribe_discribtion_image
+.subscribe_description_image
 {
     width: 60%;
 }
@@ -235,7 +247,7 @@ body
 }
 
 
-.taste_discription
+.taste_description
 {
     width: 30%;
 }
@@ -287,6 +299,7 @@ body
 .testimonial_author_city
 {
     font-weight: normal;
+    padding-top: 10px;
 }
 .order_card
 {
@@ -302,10 +315,9 @@ body
 
 .footer
 {
-    height: 310px;
     background-color: #f8f8f8;
 }
-.order_discription
+.order_description
 {
     padding-top: 120px;
     padding-left: 120px;
@@ -343,5 +355,5 @@ body
 }
 .submit_button
 {
-    border-radius: 0px;
+    border-radius: 0;
 }
