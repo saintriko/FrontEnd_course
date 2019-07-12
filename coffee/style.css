@@ -18,7 +18,7 @@ body
     height: 595px;
     background: url("images/hero_background.png") repeat-x ;
 }
-.navigation
+.navigation__container
 {
     padding-top: 40px;
     margin-left: auto;
@@ -28,7 +28,7 @@ body
 .logo
 {
 }
-.navigate_list
+.navigate__list
 {
     list-style-type: none;
     display: flex;
@@ -76,7 +76,7 @@ body
     text-transform: uppercase;
     font-weight: 500;
 }
-.card__title_h2
+.card__title_small
 {
     font-size: 36px;
 }
@@ -218,13 +218,13 @@ body
     justify-content: space-between;
     padding-bottom: 100px;
 }
-.taste__image
+.taste__image_container
 {
     position: relative;
     width: 52%;
     height: 100%;
 }
-.taste_photo
+.taste__photo
 {
     width: 100%;
 }
@@ -446,7 +446,7 @@ body
     opacity: 0.4;
     max-width: 225px;
 }
-.footer__wrapper
+.footer__container
 {
     /*float: left;*/
     display: flex;
