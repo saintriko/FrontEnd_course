@@ -1,0 +1,43 @@
+{
+  "name": "gulp-runner",
+  "version": "1.0.0",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "dependencies": {
+    "body-scroll-lock": "^2.6.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "*",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-connect": "^2.2.0",
+    "gulp-cssmin": "*",
+    "gulp-file-include": "^1.0.0",
+    "gulp-imagemin": "^2.2.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-inject-svg": "^0.1.18",
+    "gulp-lodash": "^0.1.2",
+    "gulp-minify-html": "^1.0.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "*",
+    "gulp-svgstore": "^5.0.5",
+    "gulp-uglify": "*",
+    "gulp-util": "^3.0.3",
+    "gulp-watch": "*",
+    "imagemin-pngquant": "^4.0.0",
+    "inputmask": "^4.0.6",
+    "rimraf": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-concat": "^2.6.1",
+    "webpack": "^4.29.5",
+    "webpack-stream": "^5.2.1"
+  }
+}

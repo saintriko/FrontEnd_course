@@ -1,0 +1,24 @@
+*
+{
+    margin: 0;
+}
+
+h1, h2, h3
+{
+    font-family: $g-font-stack;
+}
+
+h3
+{
+    font-weight: 400;
+}
+
+body
+{
+    font-family: $g-TTCommons-Regular;
+}
+
+span, a
+{
+    font-family: inherit;
+}
