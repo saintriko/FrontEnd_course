@@ -1,0 +1,87 @@
+.order-card {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+
+  &__description {
+    padding-left: 120px;
+    width: 25%;
+  }
+
+  &__title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #393939;
+    line-height: 36px;
+  }
+
+  &__text {
+    font-family: 'Raleway Medium', serif;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  &__cost {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    color: #393939;
+  }
+
+  &__form {
+    width: 60%;
+    max-width: 525px;
+    max-height: 270px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between
+  }
+
+  &__input {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 0;
+    padding: 10px;
+  }
+
+  &__input::placeholder {
+    color: #858585;
+    font-family: 'Raleway Medium', serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  &__name {
+    max-width: 525px;
+  }
+
+  .double_input {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__input_half {
+    width: 45%;
+  }
+
+  &__subtext {
+    padding-top: 10px;
+    font-family: 'Raleway Medium', sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    opacity: 0.5;
+    line-height: 16px;
+  }
+}

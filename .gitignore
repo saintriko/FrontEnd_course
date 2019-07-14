@@ -2,3 +2,6 @@ coffee/dist
 coffee/.idea/vcs.xml
 node_modules
 bower_components
+coffee/.idea
+coffee/builder/package-lock.json
+coffee/.idea/workspace.xml
