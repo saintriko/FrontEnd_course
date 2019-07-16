@@ -16,14 +16,14 @@
 
     &__title
     {
-        font-size: 24px;
+        font-size: $g-title-font;
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
     }
 
     &__text
     {
-        font-family: 'Raleway', sans-serif;
+        font-family: $g-card-text-font;
         font-size: 19px;
         font-weight: 500;
     }

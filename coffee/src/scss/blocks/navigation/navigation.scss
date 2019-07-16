@@ -11,14 +11,13 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        max-width: 900px;
     }
 
     &__link
     {
-        font-family: 'Raleway', sans-serif;
+        font-family: $g-navigation-link-font;
         font-weight: 600;
-        font-size: 15px;
-        color: #282b30;
+        font-size: $navigation-link-font-size;
+        color: $g-navigation-link-color;
     }
 }

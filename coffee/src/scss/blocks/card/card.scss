@@ -3,43 +3,39 @@
     padding-top: 59px;
     padding-bottom: 54px;
     max-width: 850px;
-    background-color: white;
+    background-color: $g-card-background-color;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    text-align: center;
 
     &__title
     {
         max-width: 410px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        line-height: 50px;
-        font-size: 46px;
-        font-family: 'Oswald', sans-serif;
+        line-height: $g-card-title-line-height;
+        font-size: $g-card-title-font-size;
+        font-family: $g-title-font;
         text-transform: uppercase;
         font-weight: 500;
-    }
-    
-    &__title_small
-    {
-        font-size: 36px;
-    }
+        color: $g-title-color;
 
+        &_small
+        {
+            font-size: $g-card-title-font-small-size;
+        }
+    }
     &__text
     {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
         padding-bottom: 26px;
         padding-top: 10px;
         max-width: 530px;
-        font-family: 'Raleway Medium', sans-serif;
-        font-size: 19px;
+        font-family: $g-card-text-font;
+        font-size: $g-card-text-font-size;
         font-weight: 500;
-        line-height: 28px;
+        line-height: $g-card-text-line-height;
+        color: $g-card-text-color;
     }
 }

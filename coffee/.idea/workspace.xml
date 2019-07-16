@@ -3,21 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="5f454385-101c-4e15-89df-4e58ea60b4ad" name="Default" comment="replaced divs with paragraphs and headlines">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/button/button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/card/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/container/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/navigation/navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/container/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/order-card/order-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/container/subscribe-step.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/subscribe-step/subscribe-step.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/container/subsrcibe_description.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/subscribe-description/subsrcibe_description.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/container/taste.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/taste/taste.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/container/testimonial.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/testimonial/testimonial.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/logo/logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/logo/logo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/section/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/section/gift.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/gift/gift.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/section/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/section/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/hero/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/section/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/section_order/section_order.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/gift/gift.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/gift/gift.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/hero/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/hero/hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/navigation/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/navigation/navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/order-card/order-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/order-card/order-card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/section/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/section/section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/section_order/section_order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/section_order/section_order.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/subscribe-description/subsrcibe_description.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/subscribe-description/subsrcibe_description.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/subscribe-step/subscribe-step.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/subscribe-step/subscribe-step.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/taste/taste.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/taste/taste.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/testimonial/testimonial.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/testimonial/testimonial.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/vars/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/vars/vars.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,12 +31,89 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scss/blocks/main.scss">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="order-card.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/order-card/order-card.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="612">
+              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testimonial.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/testimonial/testimonial.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_reset.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/reset/_reset.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="vars.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/vars/vars.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="card.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/card/card.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/section/section.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section_order.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/section_order/section_order.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subsrcibe_description.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/subscribe-description/subsrcibe_description.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscribe-step.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/subscribe-step/subscribe-step.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taste.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/blocks/taste/taste.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1030">
+              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -54,12 +132,16 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background: url(&quot;background.jpg&quot;) repeat-x ;</find>
+      <find />
       <find>header</find>
       <find>about</find>
       <find>подари</find>
       <find>отзы</find>
       <find>gif_section</find>
+      <find>card-title-font</find>
+      <find>colo</find>
+      <find>double_input</find>
+      <find>стои</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,25 +155,27 @@
         <option value="$PROJECT_DIR$/src/scss/blocks/section/header.css" />
         <option value="$PROJECT_DIR$/src/scss/blocks/section/section.sass" />
         <option value="$PROJECT_DIR$/src/scss/blocks/section/hero.scss" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/scss/blocks/section/gift.scss" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/section/order.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/main.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/container/subsrcibe_description.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/card/card.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/logo/logo.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/footer/footer.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/gift/gift.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/hero/hero.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/logo/logo.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/navigation/navigation.scss" />
-        <option value="$PROJECT_DIR$/src/scss/blocks/order-card/order-card.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/section/section.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/section_order/section_order.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/subscribe-description/subsrcibe_description.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/subscribe-step/subscribe-step.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/taste/taste.scss" />
         <option value="$PROJECT_DIR$/src/scss/blocks/testimonial/testimonial.scss" />
+        <option value="$PROJECT_DIR$/src/scss/vars/vars.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/order-card/order-card.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/button/button.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/hero/hero.scss" />
+        <option value="$PROJECT_DIR$/src/scss/blocks/card/card.scss" />
       </list>
     </option>
   </component>
@@ -109,11 +193,11 @@
       <path value="$PROJECT_DIR$/builder/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="832" />
     <option name="y" value="-8" />
-    <option name="width" value="854" />
-    <option name="height" value="1017" />
+    <option name="width" value="856" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -121,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,11 +231,144 @@
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="card" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="gift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="hero" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="logo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="order-card" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="section" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="section_order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="subscribe-description" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="subscribe-step" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="taste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="testimonial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="reset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coffee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="vars" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,33 +415,36 @@
       <workItem from="1562584537592" duration="1837000" />
       <workItem from="1563123311455" duration="2730000" />
       <workItem from="1563211872434" duration="13000" />
-      <workItem from="1563277071424" duration="2017000" />
+      <workItem from="1563277071424" duration="3279000" />
+      <workItem from="1563286597451" duration="810000" />
+      <workItem from="1563297135857" duration="9036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26277000" />
+    <option name="totallyTimeSpent" value="37385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22616138" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23166259" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3292683" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32995495" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32930845" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32930845" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -240,6 +461,76 @@
     <option name="LAST_COMMIT_MESSAGE" value="replaced divs with paragraphs and headlines" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/testimonial/testimonial.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/order-card/order-card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/button/button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="165" column="137" selection-start-line="165" selection-start-column="136" selection-end-line="165" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/vars/vars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/testimonial/testimonial.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3230">
@@ -290,45 +581,28 @@
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/footer/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        <state relative-caret-position="595">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/card/card.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/button/button.scss">
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/gift/gift.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="167" column="73" lean-forward="true" selection-start-line="167" selection-start-column="73" selection-end-line="167" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/logo/logo.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/hero/hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="172" column="55" lean-forward="true" selection-start-line="172" selection-start-column="55" selection-end-line="172" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -339,80 +613,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/gift/gift.scss">
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/footer/footer.scss">
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/button/button.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="3">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="192" column="46" selection-start-line="192" selection-start-column="46" selection-end-line="192" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/hero/hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/logo/logo.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/navigation/navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/order-card/order-card.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="612">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/section/section.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/section_order/section_order.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/subscribe-description/subsrcibe_description.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="476">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/subscribe-step/subscribe-step.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="425">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/taste/taste.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="1030">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/blocks/testimonial/testimonial.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/blocks/main.scss">
+    <entry file="file://$PROJECT_DIR$/src/scss/reset/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/vars/vars.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="247">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/blocks/card/card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>

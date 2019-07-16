@@ -5,7 +5,7 @@
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: $g-order-card-background-color;
     display: flex;
     flex-direction: row;
 
@@ -17,27 +17,27 @@
 
     &__title
     {
-        font-family: 'Oswald', sans-serif;
+        font-family: $g-title-font;
         font-weight: 500;
-        font-size: 32px;
+        font-size: $g-order-card-title-font-size;
         text-transform: uppercase;
-        color: #393939;
+        color: $g-order-card-title-color;
         line-height: 36px;
     }
 
     &__text
     {
-        font-family: 'Raleway Medium', serif;
-        font-size: 14px;
+        font-family: $g-card-text-font;
+        font-size: $g-order-card-text-font-size;
         padding-top: 10px;
     }
 
     &__cost
     {
-        font-family: 'Oswald', sans-serif;
+        font-family: $g-title-font;
         font-weight: 500;
-        font-size: 52px;
-        color: #393939;
+        font-size: $g-order-card-cost-font-size;
+        color: $g-order-card-title-color;
     }
 
     &__form
@@ -56,30 +56,32 @@
         height: 50px;
         margin-top: 10px;
         margin-bottom: 10px;
-        background-color: #f9f9f9;
+        background-color: $g-order-input-background-color;
         border: 0;
         padding: 10px;
+        font-family: $g-order-card-input-font;
+        font-size: $g-order-card-input-font-size;
+
+        &_double
+        {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
 
     &__input::placeholder
     {
-        color: #858585;
-        font-family: 'Raleway Medium', serif;
+        color: $g-order-card-input-placeholder-color;
+        font-family: $g-order-card-input-font;
         font-weight: 400;
-        font-size: 16px;
+        font-size: $g-order-card-input-font-size;
     }
 
     &__name
     {
         max-width: 525px;
-    }
-
-    .double_input
-    {
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
     }
 
     &__input_half
@@ -90,7 +92,7 @@
     &__subtext
     {
         padding-top: 10px;
-        font-family: 'Raleway Medium', sans-serif;
+        font-family: $g-order-card-input-font;
         font-size: 11px;
         font-weight: normal;
         opacity: 0.5;

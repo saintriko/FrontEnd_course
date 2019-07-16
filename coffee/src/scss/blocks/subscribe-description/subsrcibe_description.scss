@@ -10,20 +10,23 @@
     &__title
     {
         font-size: 36px;
-        font-family: 'Oswald', sans-serif;
+        font-family: $g-title-font;
         font-weight: 400;
         text-transform: uppercase;
+        color: $g-title-color;
     }
 
     &__subtitle
     {
-        font-family: 'Raleway Medium', sans-serif;
+        font-family: $g-subtitle-font;
         padding-bottom: 20px;
+        color: $g-title-color;
     }
 
     &_text
     {
         width: 40%;
+        color: $g-title-color;
     }
 
     &__image

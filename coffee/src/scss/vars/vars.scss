@@ -1,22 +1,54 @@
-//Colors
-$g-color-black: #000 !default;
-$g-color-violet: #8055d1 !default;
-$g-color-light-violet: #966be6 !default;
-$g-color-yellow: #ffd148 !default;
-$g-color-gray: #64646a !default;
-$g-color-light-gray: #acacac !default;
-
-// Base Typography
-$g-title-color: #13131c !default;
-$g-subtitle-color: #13131c !default;
-$g-paragraph-color: #13131c !default;
-
-$g-title-font-size: 50px !default;
-$g-title-line-height: 58px !default;
-
-$g-paragraph-font-size: 18px !default;
-$g-paragraph-line-height: 24px !default;
-
 $g-font-stack: 'Besom', 'arial', sans-serif;
 $g-TTCommons-DemiBold: 'TTCommons-DemiBold';
 $g-TTCommons-Regular: 'TTCommons-Regular';
+
+//colors
+$g-color-black: #000 !default;
+$g-color-white: #fff !default;
+
+$g-navigation-link-color: $g-color-black !default;
+$g-title-color: $g-color-black !default;
+$g-subtitle-color: $g-color-black !default;
+$g-button-color: #0fa8ea !default;
+$g-button-hover-color: #0b7aaa !default;
+$g-button-text-color: $g-color-white !default;
+$g-taste-subtitle: #282b30 !default;
+$g-paragraph-color: $g-color-black !default;
+$g-card-text-color: $g-color-black !default;
+$g-footer-background-color: #f8f8f8 !default;
+$g-order-card-background-color: $g-color-white !default;
+$g-order-input-background-color: #f9f9f9 !default;
+$g-order-card-input-placeholder-color: #858585;
+$g-order-card-title-color: #393939 !default;
+$g-order-background-color: #0fa8ea;
+
+//fonts sizes
+$navigation-link-font-size: 15px !default;
+$g-card-title-font-size: 46px !default;
+$g-card-title-font-small-size: 36px !default;
+$g-card-text-font-size: 19px !default;
+$g-button-text-font-size: 16px !default;
+$g-footer-font-size: 14px !default;
+$g-order-card-title-font-size: 32px !default;
+$g-order-card-text-font-size: 14px !default;
+$g-order-card-cost-font-size: 52px !default;
+$g-order-card-input-font-size: 16px !default;
+
+$g-card-text-line-height: 28px !default;
+$g-card-title-line-height: 50px !default;
+
+//fonts
+$g-title-font: 'Oswald', sans-serif !default;
+$g-subtitle-font: 'Raleway', sans-serif !default;
+$g-button-text-font: 'Raleway', sans-serif !default;
+$g-card-text-font: 'Raleway Medium', sans-serif !default;
+$g-card-background-color: #fff !default;
+$g-navigation-link-font: 'Raleway', sans-serif !default;
+$g-footer-font: 'Raleway Medium', sans-serif !default;
+$g-order-card-input-font: 'Raleway Medium', serif !default;
+
+//images
+$g-gift-background-image: url("../images/gift_background.png") no-repeat;
+$g-hero-background-image: url("../images/hero_background.png") repeat-x;
+$g-quote-background-image: url("../images/qoute_background.png") no-repeat;
+$g-quote-background-image-reverse: url("../images/qoute_background_reverse.png") no-repeat;

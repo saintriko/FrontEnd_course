@@ -15,16 +15,17 @@
 
     &__quote
     {
-        background: url("../images/qoute_background.png") no-repeat;
+        background: $g-quote-background-image;
         filter: drop-shadow(0 0 3px rgba(100, 100, 100, 0.5));
         width: 701px;
         height: 236px;
+        color: $g-subtitle-color;
 
     }
 
     &__quote_right
     {
-        background: url("../images/qoute_background_reverse.png") no-repeat;
+        background: $g-quote-background-image-reverse;
     }
 
     &__text
@@ -35,7 +36,7 @@
         width: 85%;
         margin-left: auto;
         margin-right: auto;
-        font-family: 'Raleway', sans-serif;
+        font-family: $g-subtitle-font;
         font-weight: 500;
         line-height: 26px;
     }
