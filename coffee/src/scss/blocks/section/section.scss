@@ -1,18 +1,20 @@
-.section {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding-top: 130px;
-  padding-bottom: 50px;
+.section
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 130px;
+    padding-bottom: 50px;
 
-  &__title {
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 80px;
-    display: inline-block;
-    font-size: 36px;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-  }
+    &__title
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 80px;
+        display: inline-block;
+        font-size: 36px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
 }
