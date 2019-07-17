@@ -37,10 +37,10 @@
         opacity: 0.5;
         font-weight: 400;
         padding-top: 15px;
-    }
 
-    &__link_title
-    {
-        font-weight: bold;
+        &_title
+        {
+            font-weight: bold;
+        }
     }
 }

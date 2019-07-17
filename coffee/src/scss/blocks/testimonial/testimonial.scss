@@ -21,11 +21,10 @@
         height: 236px;
         color: $g-subtitle-color;
 
-    }
-
-    &__quote_right
-    {
-        background: $g-quote-background-image-reverse;
+        &_right
+        {
+            background: $g-quote-background-image-reverse;
+        }
     }
 
     &__text

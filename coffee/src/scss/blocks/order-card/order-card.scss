@@ -69,24 +69,23 @@
             flex-direction: row;
             justify-content: space-between;
         }
-    }
 
-    &__input::placeholder
-    {
-        color: $g-order-card-input-placeholder-color;
-        font-family: $g-order-card-input-font;
-        font-weight: 400;
-        font-size: $g-order-card-input-font-size;
-    }
+        &_half
+        {
+            width: 45%;
+        }
 
+        &::placeholder
+        {
+            color: $g-order-card-input-placeholder-color;
+            font-family: $g-order-card-input-font;
+            font-weight: 400;
+            font-size: $g-order-card-input-font-size;
+        }
+    }
     &__name
     {
         max-width: 525px;
-    }
-
-    &__input_half
-    {
-        width: 45%;
     }
 
     &__subtext

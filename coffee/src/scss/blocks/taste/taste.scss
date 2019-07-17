@@ -1,6 +1,6 @@
 .taste
 {
-    width: 1566px;
+    max-width: 1566px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -24,18 +24,18 @@
     {
         position: absolute;
         width: 30%;
-    }
 
-    &__package-image_left
-    {
-        bottom: -83px;
-        right: 60px;
-    }
+        &_left
+        {
+            bottom: -83px;
+            right: 60px;
+        }
 
-    &__package-image_right
-    {
-        bottom: -83px;
-        left: 2px;
+        &_right
+        {
+            bottom: -83px;
+            left: 2px;
+        }
     }
 
     &__description
