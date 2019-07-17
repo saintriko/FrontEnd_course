@@ -2,15 +2,21 @@
 {
     padding-top: 59px;
     padding-bottom: 54px;
-    max-width: 850px;
+    max-width: 100%;
     background-color: $g-card-background-color;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-radius: 20px;
     position: relative;
-    text-align: center;
+    z-index: 1;
+
+    &__text-center
+    {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+
+        box-shadow: 0 16px 68px rgba(2, 59, 119, 0.25);
+    }
 
     &__title
     {
@@ -26,7 +32,13 @@
         {
             font-size: $g-card-title-font-small-size;
         }
+
+        &_medium
+        {
+            font-size:$g-card-title-font-medium-size;
+        }
     }
+
     &__text
     {
         padding-bottom: 26px;
@@ -37,5 +49,29 @@
         font-weight: 500;
         line-height: $g-card-text-line-height;
         color: $g-card-text-color;
+    }
+    &__pattern
+    {
+        position: absolute;
+        z-index: -1;
+        &_left
+        {
+            left: 0;
+            top: 0;
+            height: 140px;
+            width: 175px;
+            background: url(../images/card_pattern_left.png) no-repeat;
+            border-radius: 20px 0 0 0 ;
+        }
+
+        &_right
+        {
+            right: 0;
+            bottom: 0;
+            height: 130px;
+            width: 210px;
+            background: url(../images/card_pattern_right.png) no-repeat;
+            border-radius: 0 0 20px 0 ;
+        }
     }
 }

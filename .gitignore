@@ -6,3 +6,4 @@ coffee/.idea
 coffee/builder/package-lock.json
 coffee/.idea/workspace.xml
 coffee/.idea/workspace.xml
+*.xml

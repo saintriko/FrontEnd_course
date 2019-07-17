@@ -3,4 +3,9 @@
     padding-top: 178px;
     height: 595px;
     background: $g-hero-background-image;
+    &__card-wrapper
+    {
+        max-width: 850px;
+        margin: 0 auto;
+    }
 }

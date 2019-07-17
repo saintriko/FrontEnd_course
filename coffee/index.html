@@ -1,240 +1,276 @@
 <!DOCTYPE HTML>
 <html lang="ru">
-    
-    <head>
-        <title>coffee project</title>
-        <meta charset="UTF-8">
-        <link href="dist/css/main.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
-        <link href="http://allfont.ru/allfont.css?fonts=raleway-medium" rel="stylesheet" type="text/css">
-    </head>
-    
-    <body>
-        <header class="header">
-            <nav class="navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__link"><a>Подписка</a></li>
-                    <li class="navigation__link"><a>Кофе в подарок</a></li>
-                    <li class="logo"><a><img alt="Coffee Journey" src="dist/images/Coffee_Journey.png"></a></li>
-                    <li class="navigation__link"><a>Карта вкусов</a></li>
-                    <li class="navigation__link"><a>Отзывы</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <section class="hero">
-            <div class="card">
-                <h1 class="card__title">Лучшие сорта кофе со всего мира</h1>
-                <p class="card__text">Подпишись и получай лучшие сорта со всего мира с <br> доставкой на дом каждый месяц.</p>
-                <button class="button">Получать раз в месяц</button>
+
+<head>
+    <title>coffee project</title>
+    <meta charset="UTF-8">
+    <link href="dist/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="http://allfont.ru/allfont.css?fonts=raleway-medium" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header class="header">
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__link"><a>Подписка</a></li>
+            <li class="navigation__link"><a>Кофе в подарок</a></li>
+            <li class="logo"><a><img alt="Coffee Journey" src="dist/images/Coffee_Journey.png"></a></li>
+            <li class="navigation__link"><a>Карта вкусов</a></li>
+            <li class="navigation__link"><a>Отзывы</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero__card-wrapper">
+        <div class="card card__text-center">
+            <div class="card__pattern card__pattern_left"></div>
+            <h1 class="card__title">Лучшие сорта кофе со всего мира</h1>
+            <p class="card__text">Подпишись и получай лучшие сорта со всего мира с <br> доставкой на дом каждый месяц.
+            </p>
+            <button class="button">Получать раз в месяц</button>
+            <div class="card__pattern card__pattern_right"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="section__title">Как работает подписка?</h2>
+    <div class="subscribe-step">
+        <div class="subscribe-step__column">
+            <img alt="choosing" src="dist/images/icon%201.png">
+            <p class="subscribe-step__title">Выбор кофе</p>
+            <p class="subscribe-step__text">Поможем подобрать кофе, проконсультируем и разместим заказ . Отвечаем
+                быстро, вся почта переадресуется сотрудникам.</p>
+        </div>
+        <div class="subscribe-step__column">
+            <img alt="preparing" src="dist/images/icon%202.png">
+            <p class="subscribe-step__title">Выбор кофе</p>
+            <p class="subscribe-step__text">Мы обжариваем кофе каждую субботу только под заказы и никогда не жарим
+                впрок. Вы получаете действительно свежий продукт.</p>
+        </div>
+        <div class="subscribe-step__column">
+            <img alt="delivery" src="dist/images/icon%203.png">
+            <p class="subscribe-step__title">Выбор кофе</p>
+            <p class="subscribe-step__text">После обжарки, ваш кофе упакован и отправлен прямо к вашей двери. Просто
+                варите и наслаждайтесь!</p>
+        </div>
+    </div>
+
+    <div class="subscribe-description">
+        <div class="subscribe-description_text">
+            <p class="subscribe-description__title">Пробуйте новый вкус каждый месяц</p>
+            <p class="subscribe-description__subtitle">Устройте мировое турне по удивительному кофе с этой подпиской на
+                3 месяца. Каждый месяц выполучаете кофе и культуру из новой страны.
+                Каждая партия включает:
+                – Самый лучший в мире кофе с одним происхождением
+                – Жареный и доставленный свежий
+                – Живописные открытки из каждой страны
+                – Визитные карточки с ароматом
+                – Бесплатная доставка</p>
+            <button class="button">Получать раз в месяц</button>
+        </div>
+        <div class="subscribe-description__image"><img alt="subscribe" src="dist/images/subscribe_description_image.png"></div>
+    </div>
+</section>
+
+<section class="gift">
+    <div class="gift__card-wrapper">
+    <div class="card card__text-center">
+        <h2 class="card__title card__title_medium">Подари кофейное путешествие</h2>
+        <p class="card__text">Пошлите вашему другу мировое турне по удивительному кофе с этой подпиской на 3 месяца.
+            Каждый месяц они получат кофе и культуру из новой страны.</p>
+        <button class="button">Сделать подарок другу</button>
+    </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="section__title">Карта вкусов</h2>
+    <div class="taste">
+        <div class="taste__image-container">
+            <img class="taste__country-photo" alt="costa_rica" src="dist/images/first_taste_image.png">
+            <img class="taste__package-image taste__package-image_left" alt="costa_rica_package" src="dist/images/first_taste_image_coffee.png">
+        </div>
+        <div class="taste__description">
+            <p class="taste__title">Коста Рика</p>
+            <p class="taste__subtitle">Тарразу</p>
+            <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики, а плантации
+                расположены на очень больших высотах на склонах вулканов, где почва богата минералами.
+                Букет сорта: Коктейль из темных лесных ягод и дикой вишни. Капля лайма для усиления вкуса. Округлое тело
+                с долгим послевкусием сахарного тростника. Это элегантный и сложный кофе со средней кислотностью.
+            </p>
+        </div>
+    </div>
+
+    <div class="taste">
+        <div class="taste__description">
+            <p class="taste__title">Коста Рика</p>
+            <p class="taste__subtitle">Тарразу</p>
+            <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики, а плантации
+                расположены на очень больших высотах на склонах вулканов, где почва богата минералами.
+                Букет сорта: Коктейль из темных лесных ягод и дикой вишни. Капля лайма для усиления вкуса. Округлое тело
+                с долгим послевкусием сахарного тростника. Это элегантный и сложный кофе со средней кислотностью.
+            </p>
+        </div>
+        <div class="taste__image-container">
+            <img class="taste__country-photo" alt="costa_rica" src="dist/images/second_taste_image.png">
+            <img class="taste__package-image taste__package-image_right" alt="costa_rica_package" src="dist/images/second_taste_image_coffee.png">
+        </div>
+    </div>
+    <div class="taste">
+        <div class="taste__image-container">
+            <img class="taste__country-photo" alt="costa_rica" src="dist/images/third_taste_image.png">
+            <img class="taste__package-image taste__package-image_left" alt="costa_rica_package" src="dist/images/third_taste_image_coffee.png">
+        </div>
+        <div class="taste__description">
+            <p class="taste__title">Коста Рика</p>
+            <p class="taste__subtitle">Тарразу</p>
+            <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики, а плантации
+                расположены на очень больших высотах на склонах вулканов, где почва богата минералами.
+                Букет сорта: Коктейль из темных лесных ягод и дикой вишни. Капля лайма для усиления вкуса. Округлое тело
+                с долгим послевкусием сахарного тростника. Это элегантный и сложный кофе со средней кислотностью.
+            </p>
+        </div>
+    </div>
+    <div class="taste">
+        <div class="taste__description">
+            <p class="taste__title">Коста Рика</p>
+            <p class="taste__subtitle">Тарразу</p>
+            <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики, а плантации
+                расположены на очень больших высотах на склонах вулканов, где почва богата минералами.
+                Букет сорта: Коктейль из темных лесных ягод и дикой вишни. Капля лайма для усиления вкуса. Округлое тело
+                с долгим послевкусием сахарного тростника. Это элегантный и сложный кофе со средней кислотностью.
+            </p>
+        </div>
+        <div class="taste__image-container">
+            <img class="taste__country-photo" alt="costa_rica" src="dist/images/fourth_taste_image.png">
+            <img class="taste__package-image taste__package-image_right" alt="costa_rica_package" src="dist/images/fourth_taste_image_coffee.png">
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="section__title">Отзывы</h2>
+    <div class="testimonial">
+        <div class="testimonial__author_image"><img alt="author" src="dist/images/testimonial_author1.png"></div>
+        <div class="testimonial__quote">
+            <div class="testimonial__text">
+                <p>Вы читали эту характеристику?! Терпкий, винный, с оттенками горьких ягод наподобие бузины - это же я,
+                    это точно про меня!
+                    Это как дать характеристику человека, точно уловив положительные и отрицательные черты! А всё вместе
+                    даёт неповторимый вкус! Спасибо, за "мой вкус"!
+                </p>
+                <p class="testimonial__author">Лариса Фролова</p>
+                <p class="testimonial__city">г. Москва</p>
             </div>
-        </section>
-        
-        <section class="section">
-            <h2 class="section__title">Как работает подписка?</h2>
-            <div class="subscribe-step">
-                <div class="subscribe-step__column">
-                    <img alt="choosing" src="dist/images/icon%201.png">
-                    <p class="subscribe-step__title">Выбор кофе</p>
-                    <p class="subscribe-step__text">Поможем подобрать кофе, проконсультируем и разместим заказ . Отвечаем быстро, вся почта переадресуется сотрудникам.</p>
-                </div>
-                <div class="subscribe-step__column">
-                    <img alt="preparing" src="dist/images/icon%202.png">
-                    <p class="subscribe-step__title">Выбор кофе</p>
-                    <p class="subscribe-step__text">Мы обжариваем кофе каждую субботу только под заказы и никогда не жарим впрок. Вы получаете действительно свежий продукт.</p>
-                </div>
-                <div class="subscribe-step__column">
-                    <img alt="delivery" src="dist/images/icon%203.png">
-                    <p class="subscribe-step__title">Выбор кофе</p>
-                    <p class="subscribe-step__text">После обжарки, ваш кофе упакован и отправлен прямо к вашей двери. Просто варите и наслаждайтесь!</p>
-                </div>
+        </div>
+    </div>
+    <div class="testimonial testimonial_right">
+        <div class="testimonial__author_image"><img alt="author" src="src/images/testimonial_author2.png"></div>
+        <div class="testimonial__quote testimonial__quote_right">
+            <div class="testimonial__text">
+                <p>Вы читали эту характеристику?! Терпкий, винный, с оттенками горьких ягод наподобие бузины - это же я,
+                    это точно про меня!
+                    Это как дать характеристику человека, точно уловив положительные и отрицательные черты! А всё вместе
+                    даёт неповторимый вкус! Спасибо, за "мой вкус"!
+                </p>
+                <p class="testimonial__author">Лариса Фролова</p>
+                <p class="testimonial__city">г. Москва</p>
             </div>
-            
-            <div class="subscribe-description">
-                <div class="subscribe-description_text">
-                    <p class="subscribe-description__title">Пробуйте новый вкус каждый месяц</p>
-                    <p class="subscribe-description__subtitle">Устройте мировое турне по удивительному кофе с этой подпиской на 3 месяца. Каждый месяц выполучаете кофе и культуру из новой страны.
-                                                           Каждая партия включает:
-                                                           – Самый лучший в мире кофе с одним происхождением
-                                                           – Жареный и доставленный свежий
-                                                           – Живописные открытки из каждой страны
-                                                           – Визитные карточки с ароматом
-                                                           – Бесплатная доставка</p>
-                    <button class="button">Получать раз в месяц</button>
-                </div>
-                <div class="subscribe-description__image"><img alt="subscribe" src="dist/images/subscribe_description_image.png"></div>
+        </div>
+    </div>
+    <div class="testimonial">
+        <div class="testimonial__author_image"><img alt="author" src="src/images/testimonial_author3.png"></div>
+        <div class="testimonial__quote">
+            <div class="testimonial__text">
+                <p>Вы читали эту характеристику?! Терпкий, винный, с оттенками горьких ягод наподобие бузины - это же я,
+                    это точно про меня!
+                    Это как дать характеристику человека, точно уловив положительные и отрицательные черты! А всё вместе
+                    даёт неповторимый вкус! Спасибо, за "мой вкус"!
+                </p>
+                <p class="testimonial__author">Лариса Фролова</p>
+                <p class="testimonial__city">г. Москва</p>
             </div>
-        </section>
-        
-        <section class="gift-section">
-            <div class="card">
-                <h2 class="card__title card__title_small">Подари кофейное путешествие</h2>
-                <p class="card__text">Пошлите вашему другу мировое турне по удивительному кофе с этой подпиской на 3 месяца. Каждый месяц они получат кофе и культуру из новой страны.</p>
-                <button class="button">Сделать подарок другу</button>
+        </div>
+    </div>
+    <div class="testimonial testimonial_right">
+        <div class="testimonial__author_image"><img alt="author" src="src/images/testimonial_author4.png"></div>
+        <div class="testimonial__quote testimonial__quote_right">
+            <div class="testimonial__text">
+                <p>Вы читали эту характеристику?! Терпкий, винный, с оттенками горьких ягод наподобие бузины - это же я,
+                    это точно про меня!
+                    Это как дать характеристику человека, точно уловив положительные и отрицательные черты! А всё вместе
+                    даёт неповторимый вкус! Спасибо, за "мой вкус"!
+                </p>
+                <p class="testimonial__author">Лариса Фролова</p>
+                <p class="testimonial__city">г. Москва</p>
             </div>
-        </section>
-        
-        <section class="section">
-            <h2 class="section__title">Карта вкусов</h2>
-            <div class="taste">
-                <div class="taste__image-container">
-                    <img class="taste__country-photo" alt="costa_rica" src="dist/images/first_taste_image.png">
-                    <img class="taste__package-image taste__package-image_left" alt="costa_rica_package" src="dist/images/first_taste_image_coffee.png">
-                </div>
-                <div class="taste__description">
-                    <p class="taste__title">Коста Рика</p>
-                    <p class="taste__subtitle">Тарразу</p>
-                    <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики, а плантации расположены на очень больших высотах на склонах вулканов, где почва богата минералами.
-                                           Букет сорта: Коктейль из темных лесных ягод и дикой вишни. Капля лайма для усиления вкуса. Округлое тело с долгим послевкусием сахарного тростника. Это элегантный и сложный кофе со средней кислотностью.
-                    </p>
-                </div>
+        </div>
+    </div>
+</section>
+
+<section class="order">
+    <div class="order__card-wrapper">
+        <div class="card">
+
+            <div class="order-card__description">
+                <h2 class="card__title card__title_small">попробовать все вкусы</h2>
+                <p class="card__text">Каждый месяц мы будем отправлять коробочку со свежеобжаренным кофе и
+                    знакомить
+                    вас с новой страной.</p>
+                <p class="card__text">4 месяца = 4 коробочки с кофе</p>
+                <p class="card__text">Стоимость подписки: </p><br>
+                <span class="card__text"> 2 500 ₽</span>
             </div>
-            
-            <div class="taste">
-                <div class="taste__description">
-                    <p class="taste__title">Коста Рика</p>
-                    <p class="taste__subtitle">Тарразу</p>
-                    <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики, а плантации расположены на очень больших высотах на склонах вулканов, где почва богата минералами.
-                                           Букет сорта: Коктейль из темных лесных ягод и дикой вишни. Капля лайма для усиления вкуса. Округлое тело с долгим послевкусием сахарного тростника. Это элегантный и сложный кофе со средней кислотностью.
-                    </p>
+            <div class="order-card__form">
+                <input placeholder="Имя и Фамилия" class="order-card__input order-card__name">
+                <div class="order-card__input_double">
+                    <input placeholder="Номер телефона" class="order-card__input order-card__input_half">
+                    <input type="email" placeholder="Email" class="order-card__input order-card__input_half">
                 </div>
-                <div class="taste__image-container">
-                    <img class="taste__country-photo" alt="costa_rica" src="dist/images/second_taste_image.png">
-                    <img class="taste__package-image taste__package-image_right" alt="costa_rica_package" src="dist/images/second_taste_image_coffee.png">
-                </div>
+                <button class="button button_large button_rectangle">Подписаться и оплатить заказ</button>
+                <p class="order-card__subtext">* Нажимая кнопку «Забронировать и оплатить», вы принимаете условия
+                    договора-оферты и соглашаетесь с условиями обработки персональных данных</p>
             </div>
-            <div class="taste">
-                <div class="taste__image-container">
-                    <img class="taste__country-photo" alt="costa_rica" src="dist/images/third_taste_image.png">
-                    <img class="taste__package-image taste__package-image_left" alt="costa_rica_package" src="dist/images/third_taste_image_coffee.png">
-                </div>
-                <div class="taste__description">
-                    <p class="taste__title">Коста Рика</p>
-                    <p class="taste__subtitle">Тарразу</p>
-                    <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики, а плантации расположены на очень больших высотах на склонах вулканов, где почва богата минералами.
-                                           Букет сорта: Коктейль из темных лесных ягод и дикой вишни. Капля лайма для усиления вкуса. Округлое тело с долгим послевкусием сахарного тростника. Это элегантный и сложный кофе со средней кислотностью.
-                    </p>
-                </div>
-            </div>
-            <div class="taste">
-                <div class="taste__description">
-                    <p class="taste__title">Коста Рика</p>
-                    <p class="taste__subtitle">Тарразу</p>
-                    <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики, а плантации расположены на очень больших высотах на склонах вулканов, где почва богата минералами.
-                                           Букет сорта: Коктейль из темных лесных ягод и дикой вишни. Капля лайма для усиления вкуса. Округлое тело с долгим послевкусием сахарного тростника. Это элегантный и сложный кофе со средней кислотностью.
-                    </p>
-                </div>
-                <div class="taste__image-container">
-                    <img class="taste__country-photo" alt="costa_rica" src="dist/images/fourth_taste_image.png">
-                    <img class="taste__package-image taste__package-image_right" alt="costa_rica_package" src="dist/images/fourth_taste_image_coffee.png">
-                </div>
-            </div>
-        </section>
-        
-        <section class="section">
-            <h2 class="section__title">Отзывы</h2>
-            <div class="testimonial">
-                <div class="testimonial__author_image"><img alt="author" src="dist/images/testimonial_author1.png"></div>
-                <div class="testimonial__quote">
-                    <div class="testimonial__text">
-                        <p>Вы читали эту характеристику?! Терпкий, винный, с оттенками горьких ягод наподобие бузины - это же я, это точно про меня!
-                           Это как дать характеристику человека, точно уловив положительные и отрицательные черты! А всё вместе даёт неповторимый вкус! Спасибо, за "мой вкус"!
-                        </p>
-                        <p class="testimonial__author">Лариса Фролова</p>
-                        <p class="testimonial__city">г. Москва</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial testimonial_right">
-                <div class="testimonial__author_image"><img alt="author" src="src/images/testimonial_author2.png"></div>
-                <div class="testimonial__quote testimonial__quote_right">
-                    <div class="testimonial__text">
-                        <p>Вы читали эту характеристику?! Терпкий, винный, с оттенками горьких ягод наподобие бузины - это же я, это точно про меня!
-                           Это как дать характеристику человека, точно уловив положительные и отрицательные черты! А всё вместе даёт неповторимый вкус! Спасибо, за "мой вкус"!
-                        </p>
-                        <p class="testimonial__author">Лариса Фролова</p>
-                        <p class="testimonial__city">г. Москва</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial">
-                <div class="testimonial__author_image"><img alt="author" src="src/images/testimonial_author3.png"></div>
-                <div class="testimonial__quote">
-                    <div class="testimonial__text">
-                        <p>Вы читали эту характеристику?! Терпкий, винный, с оттенками горьких ягод наподобие бузины - это же я, это точно про меня!
-                           Это как дать характеристику человека, точно уловив положительные и отрицательные черты! А всё вместе даёт неповторимый вкус! Спасибо, за "мой вкус"!
-                        </p>
-                        <p class="testimonial__author">Лариса Фролова</p>
-                        <p class="testimonial__city">г. Москва</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial testimonial_right">
-                <div class="testimonial__author_image"><img alt="author" src="src/images/testimonial_author4.png"></div>
-                <div class="testimonial__quote testimonial__quote_right">
-                    <div class="testimonial__text">
-                        <p>Вы читали эту характеристику?! Терпкий, винный, с оттенками горьких ягод наподобие бузины - это же я, это точно про меня!
-                           Это как дать характеристику человека, точно уловив положительные и отрицательные черты! А всё вместе даёт неповторимый вкус! Спасибо, за "мой вкус"!
-                        </p>
-                        <p class="testimonial__author">Лариса Фролова</p>
-                        <p class="testimonial__city">г. Москва</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section class="section-order">
-            <div class="order-card">
-                <div class="order-card__description">
-                    <h2 class="order-card__title">попробовать все вкусы</h2>
-                    <p class="order-card__text">Каждый месяц мы будем отправлять коробочку со свежеобжаренным кофе и знакомить вас с новой страной.</p>
-                    <p class="order-card__text">4 месяца = 4 коробочки с кофе</p>
-                    <p class="order-card__text">Стоимость подписки: </p><br>
-                    <span class="order-card__cost"> 2 500 ₽</span>
-                </div>
-                <div class="order-card__form">
-                    <input placeholder="Имя и Фамилия" class="order-card__input order-card__name">
-                    <div class="order-card__input_double">
-                        <input placeholder="Номер телефона" class="order-card__input order-card__input_half">
-                        <input type="email" placeholder="Email" class="order-card__input order-card__input_half">
-                    </div>
-                    <button class="button button_large button_rectangle">Подписаться и оплатить заказ</button>
-                    <p class="order-card__subtext">* Нажимая кнопку «Забронировать и оплатить», вы принимаете условия договора-оферты и соглашаетесь с условиями обработки персональных данных</p>
-                </div>
-            </div>
-        </section>
-        
-        <footer class="footer">
-            <section class="footer__section">
-                <div class="footer__column">
-                    <a class="logo logo_semi-transparent"><img alt="logo" src="src/images/Coffee_Journey.png"></a>
-                    <p class="footer__tagline">Доставляем свежеобжаренный кофе по подписке</p>
-                </div>
-                <div class="footer__column">
-                    <p class="footer__link footer__link_title">О нас </p>
-                    <a class="footer__link">О нас</a>
-                    <a class="footer__link">Пресса</a>
-                </div>
-                <div class="footer__column">
-                    <p class="footer__link footer__link_title">Помощь</p>
-                    <a class="footer__link">О нас</a>
-                    <a class="footer__link">Полезное</a>
-                    <a class="footer__link">Персональные данные</a>
-                </div>
-                <div class="footer__column">
-                    <p class="footer__link footer__link_title">Сервис</p>
-                    <a class="footer__link">О нас</a>
-                    <a class="footer__link">Полезное</a>
-                    <a class="footer__link">Персональные данные</a>
-                </div>
-                <div>
-                    <p class="footer__link footer__link_title">Присоединяйся к нам</p>
-                    <a class="footer__link"><img alt="social_logo" src="src/images/pinterest-social-logotype.png"></a>
-                    <a class="footer__link"><img alt="social_logo" src="src/images/facebook-logo-social-symbol.png"></a>
-                </div>
-            </section>
-        </footer>
-    
-    </body>
+            <div class="card__pattern card__pattern_left"></div>
+            <div class="card__pattern card__pattern_right"></div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <section class="footer__section">
+        <div class="footer__column">
+            <a class="logo logo_semi-transparent"><img alt="logo" src="src/images/Coffee_Journey.png"></a>
+            <p class="footer__tagline">Доставляем свежеобжаренный кофе по подписке</p>
+        </div>
+        <div class="footer__column">
+            <p class="footer__link footer__link_title">О нас </p>
+            <a class="footer__link">О нас</a>
+            <a class="footer__link">Пресса</a>
+        </div>
+        <div class="footer__column">
+            <p class="footer__link footer__link_title">Помощь</p>
+            <a class="footer__link">О нас</a>
+            <a class="footer__link">Полезное</a>
+            <a class="footer__link">Персональные данные</a>
+        </div>
+        <div class="footer__column">
+            <p class="footer__link footer__link_title">Сервис</p>
+            <a class="footer__link">О нас</a>
+            <a class="footer__link">Полезное</a>
+            <a class="footer__link">Персональные данные</a>
+        </div>
+        <div>
+            <p class="footer__link footer__link_title">Присоединяйся к нам</p>
+            <a class="footer__link"><img alt="social_logo" src="src/images/pinterest-social-logotype.png"></a>
+            <a class="footer__link"><img alt="social_logo" src="src/images/facebook-logo-social-symbol.png"></a>
+        </div>
+    </section>
+</footer>
+
+</body>
 </html>
