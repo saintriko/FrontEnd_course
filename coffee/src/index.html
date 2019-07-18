@@ -79,12 +79,13 @@
 
 <section class="gift">
     <div class="gift__card-wrapper">
-    <div class="card card__text-center">
-        <h2 class="card__title card__title_medium">Подари кофейное путешествие</h2>
-        <p class="card__text">Пошлите вашему другу мировое турне по удивительному кофе с этой подпиской на 3 месяца.
-            Каждый месяц они получат кофе и культуру из новой страны.</p>
-        <button class="button">Сделать подарок другу</button>
-    </div>
+        <div class="card card__text-center card_medium-padding">
+            <h2 class="card__title card__title_medium">Подари кофейное путешествие</h2>
+            <p class="card__text card__text_medium">Пошлите вашему другу мировое турне по удивительному кофе с этой
+                подпиской на 3 месяца.
+                Каждый месяц они получат кофе и культуру из новой страны.</p>
+            <button class="button button_medium">Сделать подарок другу</button>
+        </div>
     </div>
 </section>
 
@@ -219,26 +220,36 @@
 
 <section class="order">
     <div class="order__card-wrapper">
-        <div class="card">
-
-            <div class="order-card__description">
+        <div class="card card_no-padding">
+            <div class="card__text-container">
                 <h2 class="card__title card__title_small">попробовать все вкусы</h2>
-                <p class="card__text">Каждый месяц мы будем отправлять коробочку со свежеобжаренным кофе и
+                <p class="card__text card__text_small">Каждый месяц мы будем отправлять коробочку со свежеобжаренным
+                    кофе и
                     знакомить
                     вас с новой страной.</p>
-                <p class="card__text">4 месяца = 4 коробочки с кофе</p>
-                <p class="card__text">Стоимость подписки: </p><br>
-                <span class="card__text"> 2 500 ₽</span>
+                <p class="card__text card__text_small">4 месяца = 4 коробочки с кофе</p>
+                <p class="card__text card__text_cost">Стоимость подписки: </p><br>
+                <span class="card__text card__text_large"> 2 500 ₽</span>
             </div>
-            <div class="order-card__form">
-                <input placeholder="Имя и Фамилия" class="order-card__input order-card__name">
-                <div class="order-card__input_double">
-                    <input placeholder="Номер телефона" class="order-card__input order-card__input_half">
-                    <input type="email" placeholder="Email" class="order-card__input order-card__input_half">
+            <div class="order__form-wrapper">
+                <div class="form">
+                    <div class="form__input-container">
+                        <input placeholder=" Имя и Фамилия" class="form__input">
+                    </div>
+                    <div class="form__input-container form__input-container_double">
+                        <div class="form__input-container_half">
+                            <input placeholder="Номер телефона" class="form__input">
+                        </div>
+                        <div class="form__input-container_half">
+                            <input type="email" placeholder="Email" class="form__input">
+                        </div>
+                    </div>
+                    <div class="form__button-wrapper">
+                        <button class="button button_large button_rectangle">Подписаться и оплатить заказ</button>
+                    </div>
+                    <p class="form__subtext">* Нажимая кнопку «Забронировать и оплатить», вы принимаете условия
+                        договора-оферты и соглашаетесь с условиями обработки персональных данных</p>
                 </div>
-                <button class="button button_large button_rectangle">Подписаться и оплатить заказ</button>
-                <p class="order-card__subtext">* Нажимая кнопку «Забронировать и оплатить», вы принимаете условия
-                    договора-оферты и соглашаетесь с условиями обработки персональных данных</p>
             </div>
             <div class="card__pattern card__pattern_left"></div>
             <div class="card__pattern card__pattern_right"></div>

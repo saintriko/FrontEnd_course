@@ -3,26 +3,33 @@
     max-width: 265px;
     width: 100%;
     height: 50px;
-    border-radius:26px;
+    border-radius: 26px;
     background-color: $g-button-color;
     border: 0;
     color: $g-button-text-color;
     font-family: $g-button-text-font;
     font-weight: bold;
     font-size: $g-button-text-font-size;
-    
+
     &:hover
     {
         background-color: $g-button-hover-color;
     }
-    
+
+    &_medium
+    {
+        max-width: 285px;
+    }
+
     &_large
     {
         max-width: 525px;
         width: 100%;
-        height: 70px;
+        height: 53px;
+        border-bottom: 3px solid $g-button-hover-color;
+        font-weight: 600;
     }
-    
+
     &_rectangle
     {
         border-radius: 0;

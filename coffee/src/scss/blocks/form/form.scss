@@ -1,0 +1,58 @@
+.form
+{
+    &__input-container
+    {
+        height: 55px;
+        padding-left: 35px;
+        padding-top: 13px;
+        padding-right: 20px;
+
+        &_double
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &_half
+        {
+            width: 46%;
+        }
+    }
+
+    &__input
+    {
+        width: 100%;
+        height: 100%;
+        background-color: $g-order-input-background-color;
+        border: 0;
+        font-family: $g-order-card-input-font;
+        font-size: $g-order-card-input-font-size;
+        padding-left: 20px;
+
+        &::placeholder
+        {
+            color: $g-order-card-input-placeholder-color;
+            font-family: $g-order-card-input-font;
+            font-weight: 400;
+            font-size: $g-order-card-input-font-size;
+        }
+    }
+
+    &__subtext
+    {
+        padding-top: 20px;
+        padding-left: 31px;
+        font-family: $g-order-card-input-font;
+        font-size: 11px;
+        font-weight: normal;
+        opacity: 0.5;
+        line-height: 16px;
+    }
+
+    &__button-wrapper
+    {
+        padding-top: 37px;
+        padding-left: 32px;
+    }
+}

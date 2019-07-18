@@ -3,9 +3,18 @@
     background-color: $g-order-background-color;
     padding-bottom: 100px;
     padding-top: 100px;
+
     &__card-wrapper
     {
         margin: 0 auto;
-        max-width: 1080px;
+        max-width: 960px;
+    }
+
+    &__form-wrapper
+    {
+        padding-top: 64px;
+        padding-left: 14px;
+        padding-right: 44px;
+        width: 60%;
     }
 }

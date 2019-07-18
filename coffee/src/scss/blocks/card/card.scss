@@ -8,14 +8,34 @@
     border-radius: 20px;
     position: relative;
     z-index: 1;
+    box-shadow: 0 16px 68px rgba(2, 59, 119, 0.25);
+    //background-image: radial-gradient(10px 10px at -10px 50%, transparent 40px, white 10px);
+    overflow: hidden;
+
+    &_no-padding
+    {
+        padding: 0;
+    }
+    &_medium-padding
+    {
+        padding-top: 67px;
+        padding-bottom: 64px;
+    }
 
     &__text-center
     {
         text-align: center;
         flex-direction: column;
         align-items: center;
+    }
+    &__text-container
+    {
+        border-right: 1px dashed;
+        padding-top: 68px;
+        padding-left: 73px;
+        padding-bottom: 65px;
+        max-width: 29%;
 
-        box-shadow: 0 16px 68px rgba(2, 59, 119, 0.25);
     }
 
     &__title
@@ -28,14 +48,17 @@
         font-weight: 500;
         color: $g-title-color;
 
+        &_medium
+        {
+            font-size: $g-card-title-font-medium-size;
+            max-width: 505px;
+        }
+
         &_small
         {
             font-size: $g-card-title-font-small-size;
-        }
-
-        &_medium
-        {
-            font-size:$g-card-title-font-medium-size;
+            max-width: 230px;
+            line-height: 36px;
         }
     }
 
@@ -43,17 +66,47 @@
     {
         padding-bottom: 26px;
         padding-top: 10px;
-        max-width: 530px;
+        max-width: 610px;
         font-family: $g-card-text-font;
         font-size: $g-card-text-font-size;
         font-weight: 500;
         line-height: $g-card-text-line-height;
         color: $g-card-text-color;
+
+        &_medium
+        {
+            line-height: 26px;
+            padding-bottom: 33px;
+            padding-top: 14px;
+        }
+        &_small
+        {
+            font-size: 14px;
+            line-height: 20px;
+            padding: 0;
+            padding-top: 10px;
+        }
+
+        &_cost
+        {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            padding-top: 34px;
+            padding-bottom: 0px;
+        }
+
+        &_large
+        {
+            font-size: 52px;
+            font-family: $g-title-font;
+        }
     }
     &__pattern
     {
         position: absolute;
         z-index: -1;
+
         &_left
         {
             left: 0;
@@ -61,7 +114,7 @@
             height: 140px;
             width: 175px;
             background: url(../images/card_pattern_left.png) no-repeat;
-            border-radius: 20px 0 0 0 ;
+            border-radius: 20px 0 0 0;
         }
 
         &_right
@@ -71,7 +124,7 @@
             height: 130px;
             width: 210px;
             background: url(../images/card_pattern_right.png) no-repeat;
-            border-radius: 0 0 20px 0 ;
+            border-radius: 0 0 20px 0;
         }
     }
 }
