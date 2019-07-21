@@ -5,7 +5,6 @@
         height: 55px;
         padding-left: 35px;
         padding-top: 13px;
-        padding-right: 20px;
 
         &_double
         {
@@ -16,7 +15,7 @@
 
         &_half
         {
-            width: 46%;
+            width: 48%;
         }
     }
 
@@ -29,6 +28,7 @@
         font-family: $g-order-card-input-font;
         font-size: $g-order-card-input-font-size;
         padding-left: 20px;
+        box-sizing: border-box;
 
         &::placeholder
         {
