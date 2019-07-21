@@ -22,17 +22,21 @@
         padding-bottom: 64px;
     }
     
-    &__text-center
+    &__align-center
     {
         text-align: center;
         flex-direction: column;
         align-items: center;
     }
-    &__text-container
+    &__content-container
     {
-        border-right: 2.5px dashed #b2b2b2;
         padding: 68px 25px 65px 73px;
         max-width: 29%;
+        
+        &_right-border
+        {
+            border-right: 2.5px dashed #b2b2b2;
+        }
     }
     
     &__title
