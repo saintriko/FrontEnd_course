@@ -3,51 +3,66 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 820px;
+    max-width: 820px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
-
+    
     &_right
     {
         flex-direction: row-reverse;
     }
-
-    &__quote
+    
+    &__container
     {
-        background: $g-quote-background-image;
+        border-radius: 8px;
+        background: #fff;
         filter: drop-shadow(0 0 3px rgba(100, 100, 100, 0.5));
-        width: 701px;
-        height: 236px;
         color: $g-subtitle-color;
-
+        position: relative;
+        margin-left: 50px;
         &_right
         {
-            background: $g-quote-background-image-reverse;
+            margin-right: 50px;
         }
     }
-
+    &__triangle
+    {
+        position: absolute;
+        background: #fff;
+        width: 25px;
+        height: 25px;
+        clip-path: polygon(0 0, 100% 100%, 100% 0);
+        left: -25px;
+        top: 35px;
+        &_right
+        {
+            left: auto;
+            right: -25px;
+            top: 35px;
+            clip-path: polygon(0 0, 100% 0, 0 100%);
+        }
+    }
+    
     &__text
     {
         padding-top: 40px;
-        flex-direction: column;
-        justify-content: space-around;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px;
         font-family: $g-subtitle-font;
         font-weight: 500;
         line-height: 26px;
     }
-
+    
     &__author
     {
         font-weight: bold;
     }
-
+    
     &__city
     {
         font-weight: normal;
         padding-top: 10px;
+        padding-bottom: 35px;
     }
 }
