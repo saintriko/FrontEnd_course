@@ -7,6 +7,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
+    position: relative;
     
     &_right
     {
@@ -18,10 +19,13 @@
         border-radius: 8px;
         background: #fff;
         filter: drop-shadow(0 0 8px rgba(100, 100, 100, 0.5));
-        color: $g-subtitle-color;
+        color: #282b30;
         position: relative;
         margin-left: 50px;
         box-sizing: border-box;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
         
         &_right
         {
@@ -38,6 +42,7 @@
         clip-path: polygon(0 0, 100% 100%, 100% 0);
         left: -25px;
         top: 35px;
+        
         &_right
         {
             left: auto;
@@ -49,23 +54,36 @@
     
     &__text
     {
-        padding-top: 40px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-family: $g-subtitle-font;
-        font-weight: 500;
+        
+        font-family: $g-card-text-font;
+        font-size: 16px;
         line-height: 26px;
     }
     
     &__author
     {
+        font-family: $g-card-text-font;
+        font-size: 16px;
+        padding-top: 20px;
         font-weight: bold;
     }
     
     &__city
     {
+        font-family: $g-card-text-font;
+        font-size: 16px;
         font-weight: normal;
         padding-top: 10px;
         padding-bottom: 35px;
+    }
+    
+    &__underlay
+    {
+        background-color: $g-testimonial-underlay-color;
+        position: absolute;
+        bottom: 0;
+        height: 725px;
+        width: 100%;
+        z-index: -1;
     }
 }
