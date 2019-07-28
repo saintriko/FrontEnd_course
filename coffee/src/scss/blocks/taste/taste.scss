@@ -1,20 +1,25 @@
 .taste
 {
-    max-width: 1566px;
+    max-width: 1580px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: center;
+    //justify-content: space-between;
     padding-bottom: 100px;
     
     &__image-container
     {
         position: relative;
-        max-width: 925px;
+        max-width: 62%;
+        &_right
+        {
+        
+        }
     }
     
     &__country-photo
     {
+        padding-right: 175px;
         max-width: 100%;
     }
     
@@ -38,10 +43,16 @@
     
     &__description
     {
-        max-width: 418px;
+        max-width: 36%;
         position: relative;
         padding-top: 100px;
-        padding-left: 75px;
+        padding-left: 45px;
+        
+        &_left
+        {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
     }
     
     &__title
@@ -56,11 +67,17 @@
     &_underlay-title
     {
         position: absolute;
-        font-family: 'Caveat', serif ;
+        font-family: 'Caveat', serif;
         font-size: 125px;
         opacity: 0.1;
-        top: 15px;
-        left: 17px;
+        top: 0px;
+        left: -60px;
+        
+        &_right
+        {
+            top: 19px;
+            left: -68px;
+        }
     }
     
     &__subtitle
@@ -75,11 +92,19 @@
     
     &__text
     {
+        max-width: 427px;
         padding-top: 20px;
         font-family: "Raleway Medium", sans-serif;
         font-weight: 500;
         font-size: 15px;
         line-height: 26px;
         color: $g-taste-subtitle;
+    }
+    
+    &__line
+    {
+        filter: brightness(0);
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
