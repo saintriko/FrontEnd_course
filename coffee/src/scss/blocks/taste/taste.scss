@@ -10,8 +10,7 @@
     &__image-container
     {
         position: relative;
-        max-width: 950px;
-        max-height: 541px;
+        max-width: 925px;
     }
     
     &__country-photo
@@ -39,8 +38,10 @@
     
     &__description
     {
-        max-width: 525px;
-        //padding-left: 200px;
+        max-width: 418px;
+        position: relative;
+        padding-top: 100px;
+        padding-left: 75px;
     }
     
     &__title
@@ -52,10 +53,20 @@
         color: $g-title-color;
     }
     
+    &_underlay-title
+    {
+        position: absolute;
+        font-family: 'Caveat', serif ;
+        font-size: 125px;
+        opacity: 0.1;
+        top: 15px;
+        left: 17px;
+    }
+    
     &__subtitle
     {
         font-family: $g-subtitle-font;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
         opacity: 0.5;
         text-transform: uppercase;
@@ -64,7 +75,9 @@
     
     &__text
     {
-        font-family: $g-button-text-font;
+        padding-top: 20px;
+        font-family: "Raleway Medium", sans-serif;
+        font-weight: 500;
         font-size: 15px;
         line-height: 26px;
         color: $g-taste-subtitle;

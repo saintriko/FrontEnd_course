@@ -41,7 +41,7 @@ $g-card-title-line-height: 50px !default;
 
 //fonts
 $g-title-font: 'Oswald', sans-serif !default;
-$g-subtitle-font: 'Raleway', sans-serif !default;
+$g-subtitle-font: 'Raleway Medium', sans-serif !default;
 $g-button-text-font: 'Raleway', sans-serif !default;
 $g-card-text-font: 'Raleway Medium', sans-serif !default;
 $g-card-background-color: #fff !default;
@@ -50,7 +50,7 @@ $g-footer-font: 'Raleway Medium', sans-serif !default;
 $g-order-card-input-font: 'Raleway Medium', serif !default;
 
 //images
-$g-gift-background-image: url("../images/gift_background.png") no-repeat;
+$g-gift-background-image: url("../images/gift_background.png") repeat-x;
 $g-hero-background-image: url("../images/hero_background.png") repeat-x;
 $g-quote-background-image: url("../images/qoute_background.png") no-repeat;
 $g-quote-background-image-reverse: url("../images/qoute_background_reverse.png") no-repeat;
