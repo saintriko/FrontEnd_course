@@ -4,34 +4,39 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    //justify-content: space-between;
-    padding-bottom: 100px;
+    padding-bottom: 176px;
     
     &__image-container
     {
         position: relative;
-        max-width: 62%;
+        max-width: 926px;
+        padding-right: 43px;
+        
         &_right
         {
+            padding-right: 0;
+        }
         
+        &__padding-top
+        {
+            padding-top: 82px;
         }
     }
     
     &__country-photo
     {
-        padding-right: 175px;
         max-width: 100%;
     }
     
     &__package-image
     {
         position: absolute;
-        width: 30%;
+        width: 28%;
         
         &_left
         {
-            top: 48%;
-            right: 21%;
+            top: 41%;
+            right: 33%;
         }
         
         &_right
@@ -43,15 +48,14 @@
     
     &__description
     {
-        max-width: 36%;
+        width: 36%;
         position: relative;
         padding-top: 100px;
         padding-left: 45px;
         
         &_left
         {
-            padding-left: 100px;
-            padding-right: 100px;
+            padding-left: 89px;
         }
     }
     
@@ -62,6 +66,7 @@
         font-size: 32px;
         text-transform: uppercase;
         color: $g-title-color;
+        line-height: 37px;
     }
     
     &_underlay-title
@@ -92,12 +97,12 @@
     
     &__text
     {
-        max-width: 427px;
+        max-width: 422px;
         padding-top: 20px;
         font-family: "Raleway Medium", sans-serif;
         font-weight: 500;
         font-size: 15px;
-        line-height: 26px;
+        line-height: 28px;
         color: $g-taste-subtitle;
     }
     
@@ -106,5 +111,42 @@
         filter: brightness(0);
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    
+    &__info
+    {
+        max-width: 150px;
+        
+        &-wrapper
+        {
+            max-width: 600px;
+            display: flex;
+        }
+        
+        &_padding-left
+        {
+            padding-left: 74px;
+        }
+        
+        &-text
+        {
+            font-family: "Raleway Medium", sans-serif;
+            font-size: 11px;
+        }
+        
+        &-title
+        {
+            font-family: "Raleway Medium", sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding-top: 10px;
+        }
+    }
+    
+    &__button-wrapper
+    {
+        padding-top: 37px;
+        max-width: 243px;
     }
 }
