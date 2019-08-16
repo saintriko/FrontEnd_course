@@ -1,5 +1,29 @@
 .header
 {
-    height: 100px;
     justify-content: center;
+    
+    &__navigation
+    {
+        padding-top: 40px;
+        padding-bottom: 21px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+    }
+    
+    &__list
+    {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    &__link
+    {
+        font-family: $g-navigation-link-font;
+        font-weight: 600;
+        font-size: $navigation-link-font-size;
+        color: $g-navigation-link-color;
+    }
 }

@@ -11,8 +11,6 @@
     {
         max-width: 300px;
         padding: 30px;
-        
-
     }
 
     &__title
@@ -20,6 +18,7 @@
         font-size: $g-title-font;
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
+        color: #282b30;
     }
 
     &__text
@@ -27,5 +26,6 @@
         font-family: $g-card-text-font;
         font-size: 19px;
         font-weight: 500;
+        color: #282b30;
     }
 }

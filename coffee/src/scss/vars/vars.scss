@@ -1,11 +1,11 @@
-$g-font-stack: 'Raleway Medium', sans-serif !default;
+$g-font-stack: 'Raleway', sans-serif !default;
 
 //colors
 $g-color-black: #000 !default;
 $g-color-white: #fff !default;
 
-$g-navigation-link-color: $g-color-black !default;
-$g-title-color: $g-color-black !default;
+$g-navigation-link-color: #282b30 !default;
+$g-title-color: #282b30 !default;
 $g-subtitle-color: $g-color-black !default;
 $g-button-color: #0fa8ea !default;
 $g-button-hover-color: #0b7aaa !default;
@@ -46,6 +46,10 @@ $g-card-background-color: #fff !default;
 $g-navigation-link-font: 'Raleway', sans-serif !default;
 $g-footer-font: 'Raleway Medium', sans-serif !default;
 $g-order-card-input-font: 'Raleway Medium', serif !default;
+
+$g-taste-underlay-title-font: 'Caveat', serif !default;
+$g-taste-text-font: "Raleway Medium", sans-serif !default;
+$g-taste-info-title-font: "Raleway Bold", sans-serif !default;
 
 //images
 $g-gift-background-image: url("../images/gift_background.png") repeat-x;

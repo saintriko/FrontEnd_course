@@ -5,21 +5,23 @@
     <title>coffee project</title>
     <meta charset="UTF-8">
     <link href="dist/css/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
     <link href="http://allfont.ru/allfont.css?fonts=raleway-medium" rel="stylesheet" type="text/css">
+    <link href="http://allfont.ru/allfont.css?fonts=raleway-bold" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <header class="header">
-    <nav class="navigation">
-        <ul class="navigation__list">
-            <li class="navigation__link"><a>Подписка</a></li>
-            <li class="navigation__link"><a>Кофе в подарок</a></li>
+    <nav class="header__navigation">
+        <ul class="header__list">
+            <li class="header__link"><a>Подписка</a></li>
+            <li class="header__link"><a>Кофе в подарок</a></li>
             <li class="logo"><a><img alt="Coffee Journey" src="dist/images/Coffee_Journey.png"></a></li>
-            <li class="navigation__link"><a>Карта вкусов</a></li>
-            <li class="navigation__link"><a>Отзывы</a></li>
+            <li class="header__link"><a>Карта вкусов</a></li>
+            <li class="header__link"><a>Отзывы</a></li>
         </ul>
     </nav>
 </header>
@@ -73,7 +75,7 @@
                 – Бесплатная доставка</p>
             <button class="button">Получать раз в месяц</button>
         </div>
-        <div class="subscribe-description__image"><img alt="subscribe" src="dist/images/subscribe_description_image.png"></div>
+        <div class="subscribe-description__image-container"><img class="subscribe-description__image alt=" subscribe" src="dist/images/subscribe_description_image.png"></div>
     </div>
 </section>
 
@@ -98,7 +100,7 @@
         </div>
         <div class="taste__description">
             <p class="taste__title">Коста Рика</p>
-            <p class="taste_underlay-title">Costa Rica</p>
+            <p class="taste__underlay-title">Costa Rica</p>
             <p class="taste__subtitle">Тарразу</p>
             <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики, а плантации
                 расположены на очень больших высотах на склонах вулканов, где почва богата минералами.<br>
@@ -129,7 +131,7 @@
     <div class="taste">
         <div class="taste__description taste__description_left">
             <p class="taste__title">Индонезия</p>
-            <p class="taste_underlay-title taste_underlay-title_right">Indonesia</p>
+            <p class="taste__underlay-title taste__underlay-title_right">Indonesia</p>
             <p class="taste__subtitle">Сулавеси</p>
             <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики,
                 а плантации расположены на очень больших высотах на склонах вулканов, где почва богата минералами. <br>
@@ -156,19 +158,19 @@
                 <button class="button">Попробовать Индонезию</button>
             </div>
         </div>
-        <div class="taste__image-container taste__image-container_right taste__image-container__padding-top">
+        <div class="taste__image-container taste__image-container_right taste__image-container_padding-top">
             <img class="taste__country-photo" alt="costa_rica" src="dist/images/second_taste_image.png">
             <img class="taste__package-image taste__package-image_right" alt="costa_rica_package" src="dist/images/second_taste_image_coffee.png">
         </div>
     </div>
     <div class="taste">
-        <div class="taste__image-container taste__image-container__padding-top">
+        <div class="taste__image-container taste__image-container_padding-top">
             <img class="taste__country-photo" alt="costa_rica" src="dist/images/third_taste_image.png">
             <img class="taste__package-image taste__package-image_left" alt="costa_rica_package" src="dist/images/third_taste_image_coffee.png">
         </div>
         <div class="taste__description">
             <p class="taste__title">Бразилия</p>
-            <p class="taste_underlay-title">Brasil</p>
+            <p class="taste__underlay-title">Brasil</p>
             <p class="taste__subtitle">Сипи Фоллз</p>
             <p class="taste__text">Сипи Фоллз – это название трех водопадов, расположенных недалеко от поселения
                 Капчорва. Самый высокий из них достигает 100 метров в высоту.<br>
@@ -196,10 +198,10 @@
             </div>
         </div>
     </div>
-    <div class="taste">
+    <div class="taste taste_without-padding-bottom">
         <div class="taste__description">
             <p class="taste__title">Эфиопия</p>
-            <p class="taste_underlay-title">Itoophiyaa</p>
+            <p class="taste__underlay-title">Itoophiyaa</p>
             <p class="taste__subtitle">Сулавеси</p>
             <p class="taste__text">Климат Коста-Рики идеально подходит для выращивания качественной арабики,
                 а плантации расположены на очень больших высотах на склонах вулканов, где почва богата минералами.<br>
@@ -226,7 +228,7 @@
                 <button class="button">Попробовать Эфиопию</button>
             </div>
         </div>
-        <div class="taste__image-container taste__image-container_right taste__image-container__padding-top">
+        <div class="taste__image-container taste__image-container_right taste__image-container_padding-top">
             <img class="taste__country-photo" alt="costa_rica" src="dist/images/fourth_taste_image.png">
             <img class="taste__package-image taste__package-image_right" alt="costa_rica_package" src="dist/images/fourth_taste_image_coffee.png">
         </div>
@@ -300,14 +302,14 @@
     <div class="order__card-wrapper">
         <div class="card card_no-padding">
             <div class="card__content-container card__content-container_right-border">
-                <h2 class="card__title card__title_small">попробовать все вкусы</h2>
+                <h2 class="card__title card__title_small card__title_light-black">попробовать все вкусы</h2>
                 <p class="card__text card__text_small">Каждый месяц мы будем отправлять коробочку со свежеобжаренным
                     кофе и
                     знакомить
                     вас с новой страной.</p>
                 <p class="card__text card__text_small">4 месяца = 4 коробочки с кофе</p>
                 <p class="card__text card__text_cost">Стоимость подписки: </p>
-                <span class="card__text card__text_large"> 2 500 ₽</span>
+                <span class="card__text card__text_large card__text_light-black"> 2 500 ₽</span>
             </div>
             <div class="order__form-wrapper">
                 <div class="form">

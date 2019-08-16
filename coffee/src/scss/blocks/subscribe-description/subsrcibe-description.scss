@@ -25,12 +25,16 @@
 
     &_text
     {
-        width: 40%;
+        max-width: 40%;
         color: $g-title-color;
     }
 
     &__image
     {
-        width: 60%;
+        width: 100%;
+        &-container
+        {
+            max-width: 60%;
+        }
     }
 }
