@@ -18,6 +18,11 @@
         font-family: $g-title-font;
         text-transform: uppercase;
         font-weight: 500;
+        
+        &_medium
+        {
+            font-size: 32px;
+        }
     }
 
 }
