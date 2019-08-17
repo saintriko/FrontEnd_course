@@ -1,40 +1,56 @@
 .subscribe-description
 {
-    max-width: 1300px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
-    padding-bottom: 100px;
+    padding-bottom: 61px;
 
     &__title
     {
         font-size: 36px;
         font-family: $g-title-font;
-        font-weight: 400;
+        font-weight: 500;
+        line-height: 46px;
         text-transform: uppercase;
         color: $g-title-color;
     }
 
-    &__subtitle
+    &__text
     {
         font-family: $g-subtitle-font;
+        color: #282b30;
+        font-size: 19px;
         padding-bottom: 20px;
-        color: $g-title-color;
+        padding-top: 25px;
+        line-height: 27px;
     }
 
-    &_text
+    &__container
     {
-        max-width: 40%;
-        color: $g-title-color;
+        max-width: 488px;
+        padding-top: 58px;
+        padding-left: 204px;
     }
 
     &__image
     {
         width: 100%;
+        
         &-container
         {
-            max-width: 60%;
+            max-width: 810px;
+            padding-left: 80px;
         }
+    }
+    
+    &__list
+    {
+        list-style: none;
+        font-family: $g-subtitle-font;
+        padding-bottom: 31px;
+        color: #282b30;
+        font-size: 19px;
+        line-height: 27px;
     }
 }

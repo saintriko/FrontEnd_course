@@ -1,12 +1,12 @@
 .hero
 {
     padding-top: 178px;
-    height: 595px;
     background: $g-hero-background-image;
 
     &__card-wrapper
     {
         max-width: 820px;
         margin: 0 auto;
+        padding-bottom: 172px;
     }
 }
