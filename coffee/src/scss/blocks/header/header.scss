@@ -17,6 +17,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        order: initial;
+        
     }
     
     &__link
@@ -25,5 +27,28 @@
         font-weight: 600;
         font-size: $navigation-link-font-size;
         color: $g-navigation-link-color;
+        text-decoration: none;
+        order: 1;
+        
+        &_logo
+        {
+            order: 1;
+        }
+    }
+    
+    @media  (max-width: 600px)
+    {
+        &__list
+        {
+            flex-direction: column;
+        }
+        
+        &__link
+        {
+            &_logo
+            {
+                order: 0;
+            }
+        }
     }
 }
