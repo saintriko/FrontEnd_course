@@ -6,10 +6,9 @@
     {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         padding-top: 60px;
         padding-bottom: 80px;
-        max-width: 1060px;
+        max-width: 1266px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -25,22 +24,40 @@
 
     &__column
     {
+        max-width: 100px;
         display: flex;
         flex-direction: column;
+        padding-left: 120px;
+        
+        &_first
+        {
+            max-width: 240px;
+            padding-left: 0;
+        }
+        
+        &_last
+        {
+            max-width: 180px;
+        }
     }
 
     &__link
     {
-        max-width: 120px;
         font-family: $g-footer-font;
         font-size: $g-footer-font-size;
-        opacity: 0.5;
+        color: $g-footer-text-color;
         font-weight: 400;
         padding-top: 15px;
 
         &_title
         {
+            padding-top: 10px;
             font-weight: bold;
+        }
+        
+        &_uppercase
+        {
+            text-transform: uppercase;
         }
     }
 }
