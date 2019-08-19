@@ -33,4 +33,9 @@
         line-height: 27px;
         padding-top: 10px;
     }
+    
+    @media (max-width: 840px)
+    {
+        flex-direction: column;
+    }
 }

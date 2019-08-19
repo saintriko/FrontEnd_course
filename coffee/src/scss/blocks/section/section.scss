@@ -6,10 +6,10 @@
     padding-top: 117px;
     padding-bottom: 50px;
     position: relative;
-
+    
     &__title
     {
-        color: $g-title-color;
+        color: $g-section-title-color;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 40px;
@@ -24,5 +24,17 @@
             font-size: 32px;
         }
     }
-
+    
+    @media (max-width: 480px)
+    {
+        padding-top: 35px;
+    }
+    
+    @media (max-width: 400px)
+    {
+        &__title
+        {
+            text-align: center;
+        }
+    }
 }

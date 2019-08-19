@@ -9,4 +9,14 @@
         margin: 0 auto;
         padding-bottom: 172px;
     }
+    
+    @media (max-width: 480px)
+    {
+        &__card-wrapper
+        {
+            padding-bottom: 93px;
+        }
+    
+
+    }
 }
