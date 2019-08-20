@@ -56,9 +56,12 @@
     
     @media (max-width: 1000px)
     {
+        padding-bottom: 10px;
+        
         &__container
         {
             padding-left: 10px;
+            padding-top: 10px;
         }
     }
     

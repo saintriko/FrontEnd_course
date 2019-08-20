@@ -6,6 +6,10 @@
     display: flex;
     padding-bottom: 176px;
     
+    &_reverse
+    {
+    }
+    
     &_last
     {
         padding-bottom: 68px;
@@ -152,5 +156,67 @@
     {
         padding-top: 37px;
         max-width: 243px;
+    }
+    
+    @media (max-width: 1200px)
+    {
+        &__package-image
+        {
+            &_left
+            {
+                top: 221px;
+                right: 172px;
+            }
+        }
+        
+        &__underlay-title
+        {
+            font-size: 90px;
+            top: 34px;
+        }
+    }
+    
+    @media (max-width: 750px)
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 0px;
+        
+        &_reverse
+        {
+            flex-direction: column-reverse;
+        }
+        
+        &__description
+        {
+            width: 100%;
+            padding-left: 0px;
+        }
+        
+        &__underlay-title
+        {
+            font-size: 70px;
+            left: 0px;
+        }
+    
+        &__package-image
+        {
+            &_left
+            {
+                top: 41%;
+                right: 33%;
+            }
+    
+            &_right
+            {
+                top: 34%;
+                left: 28%;
+            }
+        }
+    
+        &__button-wrapper
+        {
+            margin: 0 auto;
+        }
     }
 }

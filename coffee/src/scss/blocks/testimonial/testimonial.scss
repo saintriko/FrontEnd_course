@@ -73,7 +73,6 @@
         
         &-image
         {
-        
         }
     }
     
@@ -94,5 +93,25 @@
         height: 725px;
         width: 100%;
         z-index: -1;
+    }
+    
+    @media (max-width: 500px)
+    {
+        flex-wrap: wrap;
+        
+        &__container
+        {
+            margin-left: auto;
+            
+            &_right
+            {
+                margin-right: auto;
+            }
+        }
+        
+        &__triangle
+        {
+            width: 0;
+        }
     }
 }

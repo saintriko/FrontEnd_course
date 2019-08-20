@@ -37,5 +37,16 @@
     @media (max-width: 840px)
     {
         flex-direction: column;
+        padding-bottom: 30px;
+        
+        &__column
+        {
+            padding: 10px 44px;
+        }
+    
+        &__title
+        {
+            padding-top: 5px;
+        }
     }
 }
