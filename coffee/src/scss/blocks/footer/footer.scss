@@ -62,16 +62,22 @@
             text-transform: uppercase;
         }
     }
-    
-    @media (max-width: 600px)
+}
+
+@media (max-width: 600px)
+{
+    .footer
     {
         &__column
         {
             padding-left: 60px;
         }
     }
-    
-    @media (max-width: 420px)
+}
+
+@media (max-width: 420px)
+{
+    .footer
     {
         flex-direction: column;
     }

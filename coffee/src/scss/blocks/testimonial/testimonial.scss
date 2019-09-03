@@ -94,8 +94,11 @@
         width: 100%;
         z-index: -1;
     }
-    
-    @media (max-width: 500px)
+}
+
+@media (max-width: 500px)
+{
+    .testimonial
     {
         flex-wrap: wrap;
         

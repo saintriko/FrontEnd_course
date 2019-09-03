@@ -5,7 +5,7 @@
     margin-right: auto;
     display: flex;
     padding-bottom: 61px;
-
+    
     &__title
     {
         font-size: 36px;
@@ -15,7 +15,7 @@
         text-transform: uppercase;
         color: $g-subscribe-description-title-color;
     }
-
+    
     &__text
     {
         font-family: $g-subtitle-font;
@@ -25,14 +25,14 @@
         padding-top: 25px;
         line-height: 27px;
     }
-
+    
     &__container
     {
         max-width: 488px;
         padding-top: 58px;
         padding-left: 204px;
     }
-
+    
     &__image
     {
         width: 100%;
@@ -53,8 +53,11 @@
         font-size: 19px;
         line-height: 27px;
     }
-    
-    @media (max-width: 1000px)
+}
+
+@media (max-width: 1000px)
+{
+    .subscribe-description
     {
         padding-bottom: 10px;
         
@@ -64,8 +67,11 @@
             padding-top: 10px;
         }
     }
-    
-    @media (max-width: 840px)
+}
+
+@media (max-width: 840px)
+{
+    .subscribe-description
     {
         &__container
         {

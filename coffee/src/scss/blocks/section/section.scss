@@ -24,14 +24,20 @@
             font-size: 32px;
         }
     }
-    
-    @media (max-width: 480px)
+}
+
+@media (max-width: 480px)
+{
+    .section
     {
         padding-top: 35px;
         padding-bottom: 20px;
     }
-    
-    @media (max-width: 400px)
+}
+
+@media (max-width: 400px)
+{
+    .section
     {
         &__title
         {

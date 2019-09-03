@@ -142,7 +142,11 @@
         }
     }
     
-    @media (max-width: 600px)
+}
+
+@media (max-width: 600px)
+{
+    .card
     {
         flex-direction: column;
         
@@ -150,6 +154,7 @@
         {
             max-width: 100%;
             padding: 40px 20px;
+            border: none;
         }
         
         &__text

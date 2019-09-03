@@ -158,7 +158,11 @@
         max-width: 243px;
     }
     
-    @media (max-width: 1200px)
+}
+
+@media (max-width: 1200px)
+{
+    .taste
     {
         &__package-image
         {
@@ -175,8 +179,11 @@
             top: 34px;
         }
     }
-    
-    @media (max-width: 750px)
+}
+
+@media (max-width: 750px)
+{
+    .taste
     {
         flex-wrap: wrap;
         flex-direction: column;
@@ -198,7 +205,7 @@
             font-size: 70px;
             left: 0px;
         }
-    
+        
         &__package-image
         {
             &_left
@@ -206,14 +213,14 @@
                 top: 41%;
                 right: 33%;
             }
-    
+            
             &_right
             {
                 top: 34%;
                 left: 28%;
             }
         }
-    
+        
         &__button-wrapper
         {
             margin: 0 auto;
