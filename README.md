@@ -1,5 +1,3 @@
-# Курс от Пашкевича #
-
 ## Как развернуть проект ##
 ### Node.js ###
 Install node.js from http://nodejs.org
